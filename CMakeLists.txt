@@ -31,7 +31,7 @@ if (CMAKE_JS_VERSION)
 
     # include static libraries
 
-    add_library(${PROJECT_NAME} SHARED ${hasher_kawpow_SRC} "hasherevrprogpow.cc")
+    add_library(${PROJECT_NAME} SHARED ${hasher_evrprogpow_SRC} "hasherevrprogpow.cc")
     set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX "" SUFFIX ".node")
 
 endif()
